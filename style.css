@@ -29,5 +29,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 
 /* Welcome-page garland portrait. */
-.opening-couple.varmala-couple{height:350px;width:100%;object-fit:contain;margin-top:16px}
-@media(max-width:760px){.opening-couple.varmala-couple{height:300px;margin-top:12px}}
+.opening-couple.varmala-couple{height:350px;width:min(100%,330px);object-fit:cover;object-position:calc(50% - 25px) center;margin-top:16px}
+@media(max-width:760px){.opening-couple.varmala-couple{height:280px;margin-top:12px}}
