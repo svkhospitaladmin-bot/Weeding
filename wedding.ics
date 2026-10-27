@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Rutanshu and Kiran//Wedding Invitation//MR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:rutanshu-kiran-wedding-20261215@invitation.local
+DTSTAMP:20261027T030000Z
+DTSTART:20261215T054500Z
+SUMMARY:ऋतांशु आणि किरण · शुभविवाह
+LOCATION:शुभम मंगलम्\, बडनेरा रोड\, अमरावती
+DESCRIPTION:गोपाळ मुहूर्त सकाळी ११:१५. विवाहस्थळाचा नकाशा: https://share.google/GCRfbKFnRC2feyAcg
+URL:https://share.google/GCRfbKFnRC2feyAcg
+END:VEVENT
+END:VCALENDAR

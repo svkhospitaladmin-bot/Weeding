@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="mr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f0e1">
+  <meta name="description" content="ऋतांशु आणि किरण यांच्या विवाहसोहळ्याचे सस्नेह निमंत्रण. १३ ते १६ डिसेंबर २०२६ · दिग्रस आणि अमरावती.">
+  <title>ऋतांशु आणि किरण · सस्नेह निमंत्रण</title>
+  <link rel="preload" href="assets/marathi.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#invitation">पत्रिकेकडे जा</a>
+  <aside class="sidebar" aria-label="आमंत्रण आणि कार्यक्रम">
+    <a class="monogram" href="#opening" aria-label="सुरुवातीला जा">कि <span>✦</span> रु</a>
+    <p class="eyebrow">A WEDDING, A LIFETIME</p>
+    <h2>ऋतांशु <em>आणि</em> किरण</h2>
+    <div class="rail-rule">✧</div>
+    <p class="rail-date">१३ — १६ डिसेंबर २०२६</p>
+    <p class="rail-place">दिग्रस · अमरावती</p>
+    <nav class="rail-nav" aria-label="कार्यक्रम निवडा">
+      <a href="#mehendi" data-section="mehendi"><i style="--dot:#6c873b"></i><span>मेहंदी</span><small>१३ डिसेंबर</small></a>
+      <a href="#haldi" data-section="haldi"><i style="--dot:#cf9a25"></i><span>हळद</span><small>१४ डिसेंबर</small></a>
+      <a href="#sangeet" data-section="sangeet"><i style="--dot:#6c477e"></i><span>संगीत</span><small>१४ डिसेंबर</small></a>
+      <a href="#wedding" data-section="wedding"><i style="--dot:#913e41"></i><span>शुभविवाह</span><small>१५ डिसेंबर</small></a>
+      <a href="#puja" data-section="puja"><i style="--dot:#bf793a"></i><span>सत्यनारायण पूजा</span><small>१६ डिसेंबर</small></a>
+    </nav>
+    <a class="rail-venue" href="#venue">विवाहस्थळ व नकाशा <span>↗</span></a>
+    <a class="rail-venue engagement-nav" href="#engagement">साखरपुड्याच्या आठवणी <span>▷</span></a>
+    <p class="rail-foot">आपली उपस्थिती,<br>आमच्या आनंदाची पूर्णता.</p>
+  </aside>
+
+  <header class="mobile-header">
+    <a href="#opening" class="mobile-brand">कि <span>✦</span> रु</a>
+    <span>सस्नेह निमंत्रण</span>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="कार्यक्रम मेनू उघडा"><span></span><span></span></button>
+  </header>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="कार्यक्रम" hidden>
+    <a href="#opening">आमंत्रणाचा व्हिडिओ</a><a href="#invitation">वधू–वर परिचय</a><a href="#mehendi">मेहंदी · १३ डिसेंबर</a><a href="#haldi">हळद · १४ डिसेंबर</a><a href="#sangeet">संगीत · १४ डिसेंबर</a><a href="#wedding">शुभविवाह · १५ डिसेंबर</a><a href="#puja">सत्यनारायण पूजा · १६ डिसेंबर</a><a href="#venue">विवाहस्थळ व नकाशा</a><a href="#engagement">साखरपुड्याच्या आठवणी</a>
+  </nav>
+
+  <main class="invitation-book">
+    <section id="opening" class="video-opening" aria-labelledby="video-title">
+      <div class="video-opening-inner">
+        <p class="video-invocation">॥ श्री गणेशाय नमः ॥</p>
+        <div class="video-ornament" aria-hidden="true">✧</div>
+        <p class="eyebrow">OUR INVITATION TO YOU</p>
+        <h1 id="video-title">ऋतांशु <span>आणि</span> किरण</h1>
+        <p class="video-date">१५ डिसेंबर २०२६ <span>·</span> अमरावती</p>
+        <div class="video-frame">
+          <video id="opening-video" controls playsinline preload="metadata" poster="assets/opening-video-poster.webp" aria-label="ऋतांशु आणि किरण यांचे आमंत्रण व्हिडिओ">
+            <source src="assets/opening-invitation.mp4" type="video/mp4">
+            <p>व्हिडिओ पाहण्यासाठी <a href="assets/opening-invitation.mp4">येथे टॅप करा</a>.</p>
+          </video>
+          <button type="button" id="play-opening" class="video-play" aria-label="आमंत्रणाचा व्हिडिओ सुरू करा"><span class="play-circle" aria-hidden="true">▶</span><span>आमंत्रणाचा व्हिडिओ पाहा</span><small>PLAY OUR INVITATION</small></button>
+        </div>
+        <p class="video-message">एका सुंदर प्रवासाची सुरुवात…<br>आपल्या प्रेमाने आणि शुभाशीर्वादाने.</p>
+        <a class="button video-enter" href="#welcome">पूर्ण आमंत्रण पाहा <span aria-hidden="true">↓</span></a>
+        <p id="video-status" role="status" aria-live="polite"></p>
+        <p class="video-functions">मेहंदी · हळद · संगीत · शुभविवाह · सत्यनारायण पूजा</p>
+      </div>
+    </section>
+    <section id="welcome" class="opening paper-scene" aria-labelledby="couple-title">
+      <div class="opening-inner">
+        <p class="invocation">॥ श्री गणेशाय नमः ॥</p>
+        <div class="blessings">
+          <figure><div><img src="assets/swami.webp" width="100" height="100" alt="श्री स्वामी समर्थ महाराज"></div><figcaption>श्री स्वामी समर्थ महाराज</figcaption></figure>
+          <span class="blessing-mark">॥ शुभविवाह ॥</span>
+          <figure><div><img src="assets/ahilyadevi.webp" width="100" height="100" alt="पुण्यश्लोक राजमाता अहिल्यादेवी होळकर"></div><figcaption>पुण्यश्लोक राजमाता<br>अहिल्यादेवी होळकर</figcaption></figure>
+        </div>
+        <p class="eyebrow">TWO HEARTS · ONE BEAUTIFUL BEGINNING</p>
+        <h2 id="couple-title" class="names-title">ऋतांशु <span>आणि</span> किरण</h2>
+        <p class="opening-date">१५ <b>✦</b> डिसेंबर <b>✦</b> २०२६</p>
+        <img class="opening-couple" src="assets/wedding-original.webp" width="1448" height="1086" alt="विवाहविधीत सहभागी ऋतांशु आणि किरण यांचे रंगीत चित्र">
+        <p class="opening-line">प्रेमाची साथ, आयुष्यभराची गाठ.</p>
+        <a class="button" href="#invitation">आमंत्रण उघडा <span aria-hidden="true">↓</span></a>
+        <p class="scroll-note">आमच्या आनंदात सहभागी व्हा</p>
+      </div>
+    </section>
+
+    <section id="invitation" class="family-section" aria-labelledby="family-title">
+      <p class="eyebrow">WITH THE BLESSINGS OF OUR FAMILIES</p>
+      <h2 id="family-title">दोन कुटुंबांचे<br><em>स्नेहमिलन</em></h2>
+      <p class="invitation-copy">आमचे येथे कुलस्वामिनी भवानी माता कृपेने शुभमंगल कार्य करण्याचे आहे. या सोनेरी क्षणी वधू–वरांना शुभाशीर्वाद देण्यासाठी हे स्नेहाचे निमंत्रण.</p>
+      <div class="family-pair">
+        <article><p class="role">॥ वर ॥ चि.</p><h3>ऋतांशु</h3><p class="alias">उर्फ घनश्याम</p><p>सौ. सोनाली व श्री. प्रकाश<br>रूपरावजी लव्हाळे यांचे चिरंजीव</p><p class="hometown">रा. कसबेगव्हाण, ता. अंजनगाव सुर्जी,<br>जि. अमरावती<br>ह. मु. गुरुदेव नगर, दिग्रस, जि. यवतमाळ</p></article>
+        <span class="pair-join" aria-hidden="true">✦</span>
+        <article><p class="role">॥ वधू ॥ चि. सौ. कां.</p><h3>किरण</h3><p class="alias">उर्फ पार्वती</p><p>सौ. ज्योती व श्री. ज्ञानेश्वरराव<br>आत्मारामजी ढोक यांची ज्येष्ठ कन्या</p><p class="hometown">रा. अंबाविहार, रविनगर,<br>अमरावती, जि. अमरावती</p></article>
+      </div>
+      <div class="ornament" aria-hidden="true">✧</div>
+      <p class="family-wish">आपण सहकुटुंब उपस्थित राहून<br>आमच्या नव्या प्रवासाला शुभाशीर्वाद द्यावेत.</p>
+      <a class="text-link" href="#mehendi">आनंदसोहळ्यांची सुरुवात <span>↓</span></a>
+    </section>
+
+    <section id="mehendi" class="event-card mehendi" data-event aria-labelledby="mehendi-title">
+      <div class="event-content">
+        <p class="eyebrow">THE COLOUR OF NEW BEGINNINGS</p>
+        <p class="event-pretitle">प्रेमाचा रंग चढू दे…</p>
+        <h2 id="mehendi-title">मेहंदी</h2><p class="event-english">MEHENDI CEREMONY</p>
+        <div class="ornament" aria-hidden="true">✧</div>
+        <p class="event-verse">मेहंदीच्या रंगात, आनंदाच्या संगतीत,<br>नात्यांची नवी सुरुवात करूया.</p>
+        <div class="event-info"><div class="date-block"><strong>१३</strong><span>डिसेंबर २०२६</span></div><div class="info-details"><p><strong>वरपक्ष:</strong> दिग्रस, जि. यवतमाळ</p><p><strong>वधूपक्ष:</strong> अमरावती</p><p class="time">वेळ लवकरच कळवू</p></div></div>
+        <img class="event-couple" src="assets/mehendi-original.png" width="1536" height="1024" alt="मेहंदीच्या सोहळ्यात ऋतांशु आणि किरण" loading="lazy">
+        <p class="scene-ending">हातांवर मेहंदी, मनात आनंद.</p>
+      </div>
+      <a class="next-scene" href="#haldi" aria-label="पुढील कार्यक्रम: हळद">↓</a>
+    </section>
+
+    <section id="haldi" class="event-card haldi" data-event aria-labelledby="haldi-title">
+      <div class="event-content">
+        <p class="eyebrow">A LITTLE TURMERIC, A LOT OF LOVE</p>
+        <p class="event-pretitle">सोनसळी क्षणांचा सोहळा</p>
+        <h2 id="haldi-title">हळद</h2><p class="event-english">HALDI CEREMONY</p>
+        <div class="ornament" aria-hidden="true">✧</div>
+        <p class="event-verse">हळदीचा रंग, हास्याची उधळण,<br>आपल्या माणसांसोबत आनंदाचे क्षण.</p>
+        <div class="event-info"><div class="date-block"><strong>१४</strong><span>डिसेंबर २०२६</span></div><div class="info-details"><p><strong>वरपक्ष:</strong> दिग्रस, जि. यवतमाळ</p><p><strong>वधूपक्ष:</strong> अमरावती</p><p class="time">वेळ लवकरच कळवू</p></div></div>
+        <img class="event-couple" src="assets/haldi-original.webp" width="1536" height="1024" alt="हळदीच्या सोहळ्यात ऋतांशु आणि किरण" loading="lazy">
+        <p class="scene-ending">चला, आनंदाचा रंग उधळूया!</p>
+      </div>
+      <a class="next-scene" href="#sangeet" aria-label="पुढील कार्यक्रम: संगीत">↓</a>
+    </section>
+
+    <section id="sangeet" class="event-card sangeet" data-event aria-labelledby="sangeet-title">
+      <div class="event-content">
+        <p class="eyebrow">AN EVENING TO REMEMBER</p>
+        <p class="event-pretitle">सुरांची साथ, आनंदाची रात्र</p>
+        <h2 id="sangeet-title">संगीत</h2><p class="event-english">SANGEET CELEBRATION</p>
+        <div class="ornament" aria-hidden="true">✧</div>
+        <p class="event-verse">सुरांच्या तालावर, आपल्या प्रेमाच्या साक्षीने,<br>एक संध्याकाळ हसत, नाचत साजरी करूया.</p>
+        <div class="event-info"><div class="date-block"><strong>१४</strong><span>डिसेंबर २०२६</span></div><div class="info-details"><p>अमरावती</p><p class="time">वेळ लवकरच कळवू</p></div></div>
+        <img class="event-couple dance-couple" src="assets/sangeet-original.webp" width="1024" height="1024" alt="संगीत सोहळ्यात नृत्य करणारे ऋतांशु आणि किरण" loading="lazy">
+        <p class="scene-ending">तुमची साथ, आमच्या आनंदाचा ताल.</p>
+      </div>
+      <a class="next-scene" href="#wedding" aria-label="पुढील कार्यक्रम: शुभविवाह">↓</a>
+    </section>
+
+    <section id="wedding" class="event-card wedding" data-event aria-labelledby="wedding-title">
+      <div class="event-content">
+        <p class="eyebrow">TOGETHER, FOR ALL OUR TOMORROWS</p>
+        <p class="event-pretitle">सप्तपदीची साथ, जन्मोजन्मीची गाठ</p>
+        <h2 id="wedding-title">शुभविवाह</h2><p class="event-english">THE WEDDING CEREMONY</p>
+        <div class="ornament" aria-hidden="true">✧</div>
+        <p class="event-verse">आमच्या सहजीवनाच्या मंगल प्रारंभी<br>आपली उपस्थिती व शुभाशीर्वाद लाभावेत.</p>
+        <div class="event-info"><div class="date-block"><strong>१५</strong><span>डिसेंबर २०२६</span></div><div class="info-details"><p>मंगळवार · सकाळी ११:१५</p><p class="time">मार्गशीर्ष मास, शुक्ल पक्ष ६</p></div></div>
+        <p class="event-location"><strong>शुभम मंगलम्</strong><span>बडनेरा रोड, अमरावती</span></p>
+        <img class="event-couple" src="assets/wedding-original.webp" width="1448" height="1086" alt="अग्निसाक्षीने विवाहविधी करताना ऋतांशु आणि किरण" loading="lazy">
+        <div class="event-actions"><a href="https://share.google/GCRfbKFnRC2feyAcg" target="_blank" rel="noopener noreferrer" class="button">विवाहस्थळाचा नकाशा ↗</a><a href="wedding.ics" download class="text-link">कॅलेंडरमध्ये जतन करा</a></div>
+      </div>
+      <a class="next-scene" href="#puja" aria-label="पुढील कार्यक्रम: श्री सत्यनारायण पूजा">↓</a>
+    </section>
+
+    <section id="puja" class="event-card puja" data-event aria-labelledby="puja-title">
+      <div class="event-content">
+        <p class="eyebrow">BLESSINGS FOR A BEAUTIFUL BEGINNING</p>
+        <p class="event-pretitle">॥ श्री सत्यनारायण प्रसन्न ॥</p>
+        <h2 id="puja-title"><small>श्री सत्यनारायण</small>पूजा</h2><p class="event-english">SATYANARAYAN PUJA</p>
+        <div class="ornament" aria-hidden="true">✧</div>
+        <p class="event-verse">नव्या आयुष्याची सुरुवात,<br>ईश्वरकृपा आणि आपल्या सर्वांच्या आशीर्वादाने.</p>
+        <div class="event-info"><div class="date-block"><strong>१६</strong><span>डिसेंबर २०२६</span></div><div class="info-details"><p>दिग्रस, जि. यवतमाळ</p><p class="time">वेळ लवकरच कळवू</p></div></div>
+        <img class="event-couple puja-couple" src="assets/puja-original.webp" width="1536" height="1024" alt="श्री सत्यनारायण पूजेत सहभागी ऋतांशु आणि किरण" loading="lazy">
+        <p class="scene-ending">या मंगल प्रसंगी आपण अवश्य उपस्थित राहावे.</p>
+      </div>
+      <a class="next-scene" href="#venue" aria-label="विवाहस्थळ आणि नकाशा पाहा">↓</a>
+    </section>
+
+    <section id="venue" class="venue-section" aria-labelledby="venue-title">
+      <p class="eyebrow">WHERE OUR FOREVER BEGINS</p><h2 id="venue-title">आपले स्वागत आहे</h2>
+      <p class="venue-name">शुभम मंगलम्</p><p class="venue-english">THE BANQUET HALL</p>
+      <p class="venue-address">बडनेरा रोड, अमरावती<br>ता. जि. अमरावती</p>
+      <img class="venue-building" src="assets/venue.webp" width="1536" height="1024" alt="शुभम मंगलम् विवाहस्थळाची इमारत आणि नावाची कंपाउंड भिंत" loading="lazy">
+      <div class="map-panel"><img src="assets/location-qr.png" width="140" height="140" alt="शुभम मंगलम् विवाहस्थळाच्या लोकेशनचा QR"><div><h3>विवाहस्थळी भेटूया!</h3><p>दिशा पाहण्यासाठी QR स्कॅन करा<br>किंवा खालील बटणावर टॅप करा.</p><a class="button" href="https://share.google/GCRfbKFnRC2feyAcg" target="_blank" rel="noopener noreferrer">नकाशावर पाहा ↗</a></div></div>
+    </section>
+    <section id="engagement" class="engagement-section" aria-labelledby="engagement-title">
+      <div class="engagement-heading">
+        <p class="eyebrow">A LITTLE FILM · A LIFETIME OF MEMORIES</p>
+        <h2 id="engagement-title">साखरपुड्याच्या<br><em>सुंदर आठवणी</em></h2>
+        <div class="ornament" aria-hidden="true">✧</div>
+        <p class="engagement-copy">जिथून सुरू झाली आमची गोष्ट…<br>त्या खास दिवसाची एक छोटीशी झलक.</p>
+      </div>
+      <div class="engagement-frame">
+        <video id="engagement-video" controls playsinline preload="none" poster="assets/engagement-poster.webp" aria-label="ऋतांशु आणि किरण यांच्या साखरपुड्याच्या आठवणी"><source src="assets/engagement-stream.mp4" type="video/mp4"><p>साखरपुड्याचा व्हिडिओ <a href="assets/engagement-stream.mp4">येथे पाहा</a>.</p></video>
+        <button type="button" id="play-engagement" class="engagement-play" aria-label="साखरपुड्याचा व्हिडिओ सुरू करा"><span aria-hidden="true">▶</span><span>आठवणी पुन्हा जगूया</span><small>WATCH OUR ENGAGEMENT FILM</small></button>
+      </div>
+      <p class="engagement-caption">एक खास दिवस. असंख्य सुंदर आठवणी.</p>
+      <p id="engagement-status" class="film-status" role="status" aria-live="polite"></p>
+      <a class="film-next" href="#closing">आता आपल्या भेटीची प्रतीक्षा <span aria-hidden="true">↓</span></a>
+    </section>
+    <footer id="closing" class="closing-section" aria-label="सस्नेह निमंत्रणाचा समारोप">
+      <div class="closing-emblem" aria-hidden="true">कि <span>✦</span> रु</div>
+      <p class="eyebrow">THE NEXT CHAPTER BEGINS WITH YOU</p>
+      <p class="closing-line">आपली उपस्थिती हीच<br>आमच्यासाठी अनमोल भेट.</p>
+      <p class="closing-invite">या मंगल सोहळ्यास आपण सहकुटुंब उपस्थित राहून<br>आमच्या आनंदात सहभागी व्हावे, हीच स्नेहाची विनंती.</p>
+      <div class="ornament" aria-hidden="true">✧</div>
+      <p class="closing-names">ऋतांशु <span>आणि</span> किरण</p>
+      <p class="closing-note">१३ — १६ डिसेंबर २०२६<br>दिग्रस · अमरावती</p>
+      <div class="closing-actions"><a class="button" href="wedding.ics" download>विवाहाची तारीख जतन करा ↓</a><a class="text-link" href="traditional-invitation.pdf" download>पारंपरिक पत्रिका डाउनलोड करा</a><button id="share-invitation" type="button" class="text-link share-link">आमंत्रणाची लिंक शेअर करा ↗</button></div>
+      <p id="share-status" role="status" aria-live="polite"></p>
+      <a href="#opening" class="back-top">सुरुवातीला जा ↑</a>
+    </footer>
+  </main>
+  <nav class="bottom-nav" aria-label="कार्यक्रम पटकन निवडा"><a href="#mehendi" data-section="mehendi">मेहंदी</a><a href="#haldi" data-section="haldi">हळद</a><a href="#sangeet" data-section="sangeet">संगीत</a><a href="#wedding" data-section="wedding">विवाह</a><a href="#puja" data-section="puja">पूजा</a></nav>
+</body>
+</html>
