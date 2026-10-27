@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Rutanshu and Kiran//Wedding Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:rutanshu-kiran-wedding-20261215@invitation.local
+DTSTAMP:20261027T030000Z
+DTSTART:20261215T054500Z
+SUMMARY:Rutanshu & Kiran - Wedding
+LOCATION:Shubham Mangalam\, Badnera Road\, Amravati
+DESCRIPTION:Wedding ceremony at 11:15 AM IST. Venue directions: https://share.google/GCRfbKFnRC2feyAcg
+URL:https://share.google/GCRfbKFnRC2feyAcg
+END:VEVENT
+END:VCALENDAR

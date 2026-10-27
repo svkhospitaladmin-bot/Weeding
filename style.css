@@ -31,3 +31,42 @@
 /* Welcome-page garland portrait. */
 .opening-couple.varmala-couple{height:350px;width:min(100%,330px);object-fit:cover;object-position:calc(50% - 25px) center;margin-top:16px}
 @media(max-width:760px){.opening-couple.varmala-couple{height:280px;margin-top:12px}}
+
+/* Keep the language choice available above the invitation and navigation. */
+:root{--language-bar-height:48px}
+.language-bar{position:sticky;top:0;z-index:45;height:var(--language-bar-height);min-height:var(--language-bar-height);display:flex;align-items:center;justify-content:center;gap:18px;padding:4px 12px;background:#fcf7edfa;border-bottom:1px solid #baa17555;backdrop-filter:blur(12px)}
+.language-bar-title{font:11px/1.5 Marathi,Georgia,serif;color:#8c704c;white-space:nowrap}
+.language-switch{display:inline-flex;gap:3px;padding:3px;border:1px solid #b69a6d77;border-radius:24px;background:#fffaf1}
+.language-switch button{min-height:30px;min-width:66px;padding:3px 12px;border:0;border-radius:20px;background:transparent;color:#7b6548;font:12px/1.5 Georgia,Marathi,serif;cursor:pointer}
+.language-switch button[lang=mr]{font-family:Marathi,Georgia,serif}
+.language-switch button[aria-pressed=true]{background:#79503e;color:#fff8eb;box-shadow:0 1px 4px #65442620}
+.language-switch button:hover:not([aria-pressed=true]){background:#eee2cc}
+.sidebar{top:var(--language-bar-height)}
+html{scroll-padding-top:calc(var(--language-bar-height) + 24px)}
+.skip:focus{top:calc(var(--language-bar-height) + 6px)}
+@media(max-width:760px){.mobile-header{top:var(--language-bar-height)}.mobile-menu{top:calc(var(--language-bar-height) + 55px)}html{scroll-padding-top:calc(var(--language-bar-height) + 55px)}}
+@media(max-width:370px){.language-bar{gap:10px}.language-bar-title{font-size:10px}.language-switch button{min-width:61px;padding-left:10px;padding-right:10px}}
+
+/* English keeps the formal serif style with sizes suited to longer words. */
+html[lang=en] body{font-family:Georgia,'Times New Roman',serif}
+html[lang=en] .sidebar h2{font-size:30px}
+html[lang=en] .sidebar h2 em{margin:9px 0}
+html[lang=en] .rail-date{font-size:12px}
+html[lang=en] .rail-nav a{font-size:12px;gap:7px;padding-left:6px;padding-right:6px}
+html[lang=en] .rail-nav small{font-size:9px}
+html[lang=en] .video-opening h1{font-size:clamp(22px,4.4vw,42px);line-height:1.5;white-space:normal}
+html[lang=en] .video-opening h1 span{font-size:.45em}
+html[lang=en] .opening .names-title{font-size:clamp(34px,7.5vw,60px);line-height:1.25;letter-spacing:-1px}
+html[lang=en] .opening .names-title span{font-size:18px;margin:10px 0}
+html[lang=en] .event-card h2{font-size:clamp(34px,7vw,58px);line-height:1.25;margin:18px 0 12px}
+html[lang=en] .puja h2 small{font-size:clamp(20px,4vw,32px);line-height:1.5}
+html[lang=en] .blessing-mark{font-size:13px;line-height:1.7}
+html[lang=en] .family-section h2{font-size:29px;line-height:1.5}
+html[lang=en] .family-pair h3{font-size:29px;line-height:1.5}
+html[lang=en] .info-details{line-height:1.8}
+html[lang=en] .date-block span{font-size:10px;white-space:normal;line-height:1.6}
+html[lang=en] .venue-section h2{font-size:30px;line-height:1.5}
+html[lang=en] .venue-name{font-size:30px;line-height:1.5}
+html[lang=en] .engagement-section h2{font-size:32px;line-height:1.5}
+html[lang=en] .closing-section .closing-names{font-size:32px;line-height:1.6}
+@media(max-width:760px){html[lang=en] .mobile-header>span{font-size:10px}html[lang=en] .mobile-brand{font-size:20px}html[lang=en] .video-opening h1{font-size:clamp(22px,5.7vw,34px)}html[lang=en] .video-opening h1 span{margin:0 2px}html[lang=en] .opening .names-title{font-size:clamp(34px,8.2vw,49px)}html[lang=en] .blessing-mark{font-size:10px}html[lang=en] .family-section h2{font-size:25px}html[lang=en] .family-pair h3{font-size:27px}html[lang=en] .event-info{gap:12px}html[lang=en] .info-details{padding-left:12px;font-size:12px}html[lang=en] .event-info .info-details .time{font-size:10px}html[lang=en] .date-block{min-width:59px;max-width:80px}html[lang=en] .date-block span{font-size:9px}html[lang=en] .venue-section h2{font-size:25px}html[lang=en] .venue-name{font-size:27px}html[lang=en] .engagement-section h2{font-size:25px}html[lang=en] .closing-section .closing-line{font-size:21px;line-height:1.6}html[lang=en] .closing-section .closing-names{font-size:27px}html[lang=en] .bottom-nav a{font-size:10px}html[lang=en] .map-panel{gap:14px}}
