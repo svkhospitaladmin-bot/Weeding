@@ -67,7 +67,6 @@ const englishCopy = {
   "brideFamily": "Bride’s family:",
   "digras": "Digras, Yavatmal",
   "amravati": "Amravati",
-  "timeTba": "Time to be announced",
   "mehendiEnding": "Henna on our hands, happiness in our hearts.",
   "haldiPretitle": "A celebration of golden moments",
   "haldiVerse": "A touch of turmeric, a shower of laughter,<br>and joyful moments with our loved ones.",
